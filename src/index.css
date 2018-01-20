@@ -2,4 +2,30 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
+  background-color: #1f1e1e;
 }
+
+textarea.write-box {
+  color: #ffffff;
+  width: 25%;
+  height: 150px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 4px solid #b2abab;
+  border-radius: 4px;
+  background-color: #383636;
+  resize: none;
+}
+
+textarea.write-box::placeholder {
+  color: #9c9a9a
+}
+
+ul.ActionList {
+  color: #ffffff;
+}
+
+form {
+  color: #ffffff;
+}
+
