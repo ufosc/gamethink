@@ -3,6 +3,11 @@ import './App.css';
 
 const logo = require('./logo.svg');
 
+let myJson = {
+	'star': 'wars',
+	'game': 'think'
+};
+
 class App extends React.Component {
 	render() {
 		return (
@@ -14,6 +19,7 @@ class App extends React.Component {
 				<p className="App-intro">
 					To get started, edit <code>src/App.tsx</code> and save to reload.
 				</p>
+				
 			</div>
 		);
 	}
