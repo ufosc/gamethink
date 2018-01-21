@@ -1,12 +1,8 @@
 import * as React from 'react';
 import './App.css';
+import Scene from './components/Scene';
 
 const logo = require('./logo.svg');
-
-let myJson = {
-	'star': 'wars',
-	'game': 'think'
-};
 
 class App extends React.Component {
 	render() {
@@ -19,7 +15,7 @@ class App extends React.Component {
 				<p className="App-intro">
 					To get started, edit <code>src/App.tsx</code> and save to reload.
 				</p>
-				
+				<Scene id={0} level={0} jsonLocation="../testScenes.json" />
 			</div>
 		);
 	}
