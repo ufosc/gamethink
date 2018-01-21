@@ -1,12 +1,16 @@
 import * as React from 'react';
 
+export interface Props {
+	rows: number;
+	cols: number;
+}
+
 class Text extends React.Component {
+
 	render() {
 		return (
 			<div className="Text">
-				<header>
-					<h1>Welcome to Text</h1>
-				</header>
+				<textarea className="write-box" placeholder="Write here" />
 			</div>
 		);
 	}

@@ -1,21 +1,18 @@
 import * as React from 'react';
 import './App.css';
-import Scene from './components/Scene';
+import Text from './components/Text';
+import ActionBox from './components/ActionBox';
+import Action from './scripts/action';
 
-const logo = require('./logo.svg');
+let actionlist: Array<Action> = [new Action('name', 'nMW', 6), new Action('otername', 'yer', 5), 
+	new Action('namename', 'pie', 1)];
 
 class App extends React.Component {
 	render() {
 		return (
-			<div className="App">
-				<header className="App-header">
-					<img src={logo} className="App-logo" alt="logo" />
-					<h1 className="App-title">Welcome to React</h1>
-				</header>
-				<p className="App-intro">
-					To get started, edit <code>src/App.tsx</code> and save to reload.
-				</p>
-				<Scene id={0} level={0} jsonLocation="../testScenes.json" />
+			<div>
+				<Text />
+				<ActionBox actions={actionlist}/>
 			</div>
 		);
 	}
