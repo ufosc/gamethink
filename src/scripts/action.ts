@@ -11,4 +11,12 @@ export class Action {
 	}
 }
 
+export class ActionList {
+	list: Array<Action>;
+
+	constructor(l: Array<Action>) {
+		this.list = l;
+	}
+}
+
 export default Action;
