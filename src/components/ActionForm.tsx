@@ -48,7 +48,7 @@ class ActionForm extends React.Component<{}, {msgValue: string, comValue: string
 
 	render() {
 		return (
-			<div>
+			<div className="actions">
 			<ActionBox actions={actionlist}/>
 			<form onSubmit={this.handleSubmit}>
 				<label>
