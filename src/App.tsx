@@ -9,6 +9,7 @@ class App extends React.Component {
 			<div>
 				<Text />
 				<ActionForm />
+				<button>Play</button>
 			</div>
 		);
 	}
