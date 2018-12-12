@@ -29,3 +29,5 @@ We would of been more successful if before coming we had worked through some bas
 ## What's next for GameThink
 
 The Open Source Club at UF may adopt it and turn it into a full fledged application with the objective of helping both to create new and exciting adventure games and help teach programming concepts at outreach events.
+
+Note: To quickly remove security issues (and the GitHub security notifications) from old dependence, the packages have been upgraded without testing the code. As this is an inactive project, we felt this was acceptable. If the project receives interest in the future, the code could be rolled back if there were problems.
